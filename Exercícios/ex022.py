@@ -1,0 +1,7 @@
+print('\033[1;31;40m~= TAL DO NOME =~\033[m\n' + '\033[1;31m-\033[m' * 17)
+nome = str(input('\033[1;31m•\033[m Digite seu nome completo: \n\033[1;31m-----> ')).strip()
+print('\033[1;31m-\033[m' * 17 + f'\n\033[1;31m•\033[m Nome em letras maiúsculas: \033[1;4;32m{nome.upper()}\033[m')
+print(f'\033[1;31m•\033[m Nome em letras minúsculas: \033[1;4;33m{nome.lower()}\033[m')
+nomes = nome.split()
+print('\033[1;31m-\033[m' * 17 + f'\n\033[1;31m•\033[m Seu nome completo possuí \033[1;4;32m{len("".join(nomes))}\033[m letras.')
+print(f'\033[1;31m•\033[m Seu primeiro nome possuí \033[1;4;33m{len(nomes[0])}\033[m letras')

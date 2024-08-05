@@ -1,0 +1,5 @@
+print('\033[1;31;40m~= REAJUSTE SALARIAL =~\033[m\n' + '\033[1;31m-\033[m' * 23)
+n = input('\033[1;31m•\033[m Nome do funcionário:\n\033[1;31m----->\033[m ')
+s = float(input('\033[1;31m•\033[m Salário atual:\n\033[1;32m-----> R$\033[m '))
+a = s + (s * 0.15)
+print('\033[1;31m-\033[m' * 23 + f'\nO salário de \033[1;31m{n}\033[m, após \033[1;33m15%\033[m de aumento será: \033[1;33mR${a:.2f}\033[m')

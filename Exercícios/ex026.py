@@ -1,0 +1,5 @@
+print('\033[1;31;40m  ~= TAL DO "A" =~  \033[m\n' + '\033[1;31m-\033[m' * 20)
+frase = str(input('\033[1;31m•\033[m Escreva uma frase: \n\033[1;31m-----> \033[m')).strip().upper()
+print(f"\033[1;31m•\033[m Quantidade de \033[1;31mA's\033[m na frase: \033[1;4;33m{frase.count('A')}\033[m")
+print(f"\033[1;31m•\033[m Posição do primeiro \033[1;31mA\033[m: \033[1;4;33m{frase.find('A')+1}\033[m")
+print(f"\033[1;31m•\033[m Posição do último \033[1;31mA\033[m: \033[1;4;33m{frase.rfind('A')+1}\033[m")

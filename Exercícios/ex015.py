@@ -1,0 +1,5 @@
+print('\033[1;31;40m~= ALUGUEL DE CARROS =~\033[m\n' + '\033[1;31m-\033[m' * 23)
+dias = int(input('\033[1;31m•\033[m Quantidade de dias alugado:\n\033[1;31m----->\033[m '))
+km = float(input("\033[1;31m•\033[m Km rodados pelo carro:\n\033[1;31m----->\033[m "))
+preco = (km * 0.15) + (dias * 60)
+print('\033[1;31m-\033[m' * 23 + f'\nO preço a pagar pelo aluguel do carro é: \033[1;32mR${preco:.2f}')

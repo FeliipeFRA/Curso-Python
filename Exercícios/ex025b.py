@@ -1,0 +1,5 @@
+print('~= EXERCÍCIO 29 =~')
+print('TAL DO ERA SÓ MAIS UM SILVA')
+nome = str((input('Digite seu nome completo: ')).upper()).strip()
+nomes = nome.split()
+print("O nome possuí Silva?", 'SILVA' in nomes)

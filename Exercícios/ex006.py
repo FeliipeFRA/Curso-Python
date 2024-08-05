@@ -1,0 +1,5 @@
+print('\033[1;31;40m~= DOBRO, TRIPLO E RAÍZ QUADRADA =~\033[m\n' + '\033[1;31m-\033[m' * 35)
+n = int(input('\033[1;31m•\033[m Insira um número: \n\033[1;31m----->\033[m '))
+print(f'\033[1;31m•\033[m Seu \033[1;32mDOBRO\033[m é: \033[1;4;32m{n * 2}\033[m')
+print(f'\033[1;31m•\033[m Seu \033[1;33mTRIPLO\033[m é: \033[1;4;33m{n * 3}\033[m')
+print(f'\033[1;31m•\033[m Sua \033[1;34mRAÍZ QUADRADA\033[m é: \033[1;4;34m{(pow (n, (1/2))):.2f}\033[m (aproximadamente)')
