@@ -1,6 +1,11 @@
 from time import sleep
+import os
 import arquivo
-file = 'C:/Users/SME 01/Desktop/teste.txt'
+
+home_dir = os.path.expanduser('~')
+desktop_dir = os.path.join(home_dir, 'Desktop')
+file = os.path.join(desktop_dir, 'cadastro jogadores.txt')
+os.makedirs(desktop_dir, exist_ok=True)
 def menu():
     print("\033[1;31m-"* 40)
     print("CLUBE DE REGATAS DO FLAMENGO".center(40))

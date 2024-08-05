@@ -1,4 +1,5 @@
 from time import sleep
+import os
 
 def verificaArquivo(file):
     try:
@@ -21,7 +22,7 @@ def criaArquivo(file):
 def limpaArquivo(file):
     arquivo = open(file, 'w+')
     arquivo.close()
-
+    os.remove(file)
 
 def leArquivo(file):
     print("\033[1;31m-\033[m" * 40)
